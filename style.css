@@ -28,9 +28,8 @@ html {
   flex-wrap: wrap;
   gap: 2vmin;
 }
-
-.button-option{
-  background: #fff;
+.button-option {
+  background: #ffffff;
   height: 22vmin;
   width: 22vmin;
   border: none;
@@ -39,20 +38,17 @@ html {
   color: #d161ff;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
-
 #restart {
   font-size: 1.3em;
-  margin-top: 1.5em;
   padding: 1em;
   border-radius: 8px;
   background-color: #0a0027;
-  color: #FFF;
+  color: #ffffff;
   border: none;
   position: relative;
   margin: 1.5em auto 0 auto;
   display: block;
 }
-
 .popup {
   background: linear-gradient(135deg, #8052ec, #d161ff);
   height: 100%;
@@ -66,22 +62,19 @@ html {
   gap: 1em;
   font-size: 12vmin;
 }
-
 #new-game {
   font-size: 0.6em;
   padding: 0.5em 1em;
   background-color: #0a0027;
-  color: #fff;
+  color: #ffffff;
   border-radius: 0.2em;
   border: none;
 }
-
 #message {
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   font-size: 1em;
 }
-
-.popup.hidden {
+.popup.hide {
   display: none;
 }

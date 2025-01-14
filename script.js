@@ -6,7 +6,7 @@ let msgRef = document.getElementById("message");
 
 const disabledButtons = () => {
   btnRef.forEach((element) => (element.disabled = true));
-  popupRef.classList.remove("hidden");
+  popupRef.classList.remove("hide");
 };
 
 const enableButtons = () => {
@@ -14,7 +14,7 @@ const enableButtons = () => {
     element.innerText = "";
     element.disabled = false;
   });
-  popupRef.classList.add("hidden");
+  popupRef.classList.add("hide");
 };
 
 const winFunction = (letter) => {
@@ -64,7 +64,6 @@ const winChecker = () => {
       btnRef[i[0]].innerText,
       btnRef[i[1]].innerText,
       btnRef[i[2]].innerText,
-      btnRef[i[3]].innerText,
     ];
 
     if (element1 != "" && (element2 != "") & (element3 != "")) {
